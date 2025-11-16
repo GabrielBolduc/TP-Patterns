@@ -1,9 +1,6 @@
 using System;
 using System.Collections.Generic;
 
-// Le Joueur IMPLÉMENTE ISubject.
-// Il sera observé.
-// C'est l'équivalent de ta classe Player.cs précédente
 public class Player : ISubject
 {
     public string Name { get; private set; }
@@ -19,18 +16,16 @@ public class Player : ISubject
         this._health = GameSettings.Instance.BaseHealth;
     }
 
-    // Propriété publique pour lire la vie
     public int Health
     {
         get { return _health; }
         private set
         {
-            // On s'assure que la vie ne descend pas sous 0
             _health = Math.Max(0, value);
         }
     }
 
-    // C'est l'action qui déclenche la notification
+    // action qui déclenche la notification
     public void TakeDamage(int damage)
     {
         // On utilise le Singleton (Étape 1) pour le modificateur
@@ -38,8 +33,6 @@ public class Player : ISubject
         this.Health -= actualDamage;
         
         Console.WriteLine($"\t{Name} subit {actualDamage} points de dégâts ! PV restants : {Health}");
-
-        // L'état du joueur a changé, il notifie tous ses observateurs !
         Notify();
     }
 

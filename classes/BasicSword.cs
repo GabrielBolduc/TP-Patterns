@@ -1,10 +1,8 @@
-// Une arme de base, simple.
-// C'est l'équivalent de ton "Regular.cs"
 public class BasicSword : IWeapon
 {
     public int GetBaseDamage()
     {
-        // Retourne un dégât de base
+        // Retourne un degat de base
         return 5;
     }
 

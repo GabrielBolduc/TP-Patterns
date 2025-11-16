@@ -12,3 +12,4 @@ C:\A2025\Analyse objet\Exercise\ShawiQuestTp\obj\Debug\net9.0\refint\Program.dll
 C:\A2025\Analyse objet\Exercise\ShawiQuestTp\obj\Debug\net9.0\Program.pdb
 C:\A2025\Analyse objet\Exercise\ShawiQuestTp\obj\Debug\net9.0\Program.genruntimeconfig.cache
 C:\A2025\Analyse objet\Exercise\ShawiQuestTp\obj\Debug\net9.0\ref\Program.dll
+C:\A2025\Analyse objet\Exercise\ShawiQuestTp\obj\Debug\net9.0\Program.sourcelink.json

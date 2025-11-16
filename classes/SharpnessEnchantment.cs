@@ -1,4 +1,3 @@
-// Un autre décorateur, pour la créativité.
 public class SharpnessEnchantment : WeaponDecorator
 {
     public SharpnessEnchantment(IWeapon weapon) : base(weapon) { }
