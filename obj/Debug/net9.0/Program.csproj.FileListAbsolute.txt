@@ -1,0 +1,14 @@
+C:\A2025\Analyse objet\Exercise\ShawiQuestTp\bin\Debug\net9.0\Program.exe
+C:\A2025\Analyse objet\Exercise\ShawiQuestTp\bin\Debug\net9.0\Program.deps.json
+C:\A2025\Analyse objet\Exercise\ShawiQuestTp\bin\Debug\net9.0\Program.runtimeconfig.json
+C:\A2025\Analyse objet\Exercise\ShawiQuestTp\bin\Debug\net9.0\Program.dll
+C:\A2025\Analyse objet\Exercise\ShawiQuestTp\bin\Debug\net9.0\Program.pdb
+C:\A2025\Analyse objet\Exercise\ShawiQuestTp\obj\Debug\net9.0\Program.GeneratedMSBuildEditorConfig.editorconfig
+C:\A2025\Analyse objet\Exercise\ShawiQuestTp\obj\Debug\net9.0\Program.AssemblyInfoInputs.cache
+C:\A2025\Analyse objet\Exercise\ShawiQuestTp\obj\Debug\net9.0\Program.AssemblyInfo.cs
+C:\A2025\Analyse objet\Exercise\ShawiQuestTp\obj\Debug\net9.0\Program.csproj.CoreCompileInputs.cache
+C:\A2025\Analyse objet\Exercise\ShawiQuestTp\obj\Debug\net9.0\Program.dll
+C:\A2025\Analyse objet\Exercise\ShawiQuestTp\obj\Debug\net9.0\refint\Program.dll
+C:\A2025\Analyse objet\Exercise\ShawiQuestTp\obj\Debug\net9.0\Program.pdb
+C:\A2025\Analyse objet\Exercise\ShawiQuestTp\obj\Debug\net9.0\Program.genruntimeconfig.cache
+C:\A2025\Analyse objet\Exercise\ShawiQuestTp\obj\Debug\net9.0\ref\Program.dll
