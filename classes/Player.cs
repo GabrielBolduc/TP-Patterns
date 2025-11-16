@@ -1,18 +1,20 @@
 using System;
 using System.Collections.Generic;
 
+// le Joueur implemente ISubject.
+// il sera observer
 public class Player : ISubject
 {
     public string Name { get; private set; }
     private int _health;
 
-    // Liste de tous les objets qui observent ce joueur
+    // liste de objets qui observent ce joueur
     private List<IObserver> _observers = new List<IObserver>();
 
     public Player(string name)
     {
         this.Name = name;
-        // On utilise le Singleton (Étape 1) pour définir la vie de base
+        // singleton pour définir la vie de base
         this._health = GameSettings.Instance.BaseHealth;
     }
 
@@ -25,14 +27,16 @@ public class Player : ISubject
         }
     }
 
-    // action qui déclenche la notification
+    // declenche la notification
     public void TakeDamage(int damage)
     {
-        // On utilise le Singleton (Étape 1) pour le modificateur
+        // singleton pour le modificateur
         int actualDamage = (int)(damage * GameSettings.Instance.DamageModifier);
         this.Health -= actualDamage;
         
         Console.WriteLine($"\t{Name} subit {actualDamage} points de dégâts ! PV restants : {Health}");
+
+        // L'état du joueur a changé, il notifie tous ses observateurs !
         Notify();
     }
 

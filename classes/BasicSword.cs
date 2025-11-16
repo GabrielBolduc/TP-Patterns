@@ -1,8 +1,9 @@
+// Une arme de base simple
 public class BasicSword : IWeapon
 {
     public int GetBaseDamage()
     {
-        // Retourne un degat de base
+        // Retourne un dégât de base
         return 5;
     }
 

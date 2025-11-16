@@ -1,3 +1,4 @@
+// une autre arme de base
 public class HeavyAxe : IWeapon
 {
     public int GetBaseDamage()

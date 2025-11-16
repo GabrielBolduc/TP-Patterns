@@ -1,5 +1,4 @@
-// C'est notre "CondimentDecorator"
-// Il implémente IWeapon et contient (wrap) une autre IWeapon.
+// implemente IWeapon et wrap une autre IWeapon
 public abstract class WeaponDecorator : IWeapon
 {
     protected IWeapon _wrappedWeapon;
@@ -9,7 +8,6 @@ public abstract class WeaponDecorator : IWeapon
         _wrappedWeapon = weapon;
     }
 
-    // Par défaut, on délègue les appels à l'objet enveloppé
     public virtual int GetBaseDamage()
     {
         return _wrappedWeapon.GetBaseDamage();
