@@ -12,7 +12,7 @@ public class Program
         {
             RunSimulation();
 
-            Console.WriteLine("\nSimulation terminée. Appuyez sur [Espace] pour rejouer, ou [Échap] pour quitter.");
+            Console.WriteLine("\nSimulation terminée. Espace pour rejouer. ");
 
             ConsoleKey key;
             do
